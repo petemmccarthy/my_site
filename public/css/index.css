@@ -1,3 +1,48 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #FFF;
 }
+
+/*  .header-container {
+    background-color: #5C97CA;
+    width:100%;
+    height:610px;
+  }
+    .background-image {
+      background: url(../images/meeting_09.jpg);
+      background-size: 850px;
+      background-repeat: no-repeat; 
+      width:900px;
+      height:580px;
+      margin-left: auto;
+      margin-right: auto;
+    }*/
+
+  /*  .welcome {
+      text-align: center;
+      margin-top: -120px;
+      font-size: 30px;
+      font-weight: 200;
+      color: #FFF;
+      -webkit-font-smoothing:antialiased;
+    }*/
+      .welcome-text {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+      }
+      .welcome-prompt-text {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .scroll-arrow-link {
+        margin-left: auto;
+        margin-right: auto;
+      }
+        #scroll-arrow {
+          background: url(../images/scroll_arrow.png);
+          margin-top: 25px;
+          -webkit-font-smoothing: antialiased;
+        }

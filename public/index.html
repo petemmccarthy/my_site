@@ -1,48 +1,174 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/tab_logo.png"/>
 
-    <!-- CHECK OUT myheritage.com FOR DESIGN IDEAS -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/work.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <meta charset='utf8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- <link href='style.css' rel='stylesheet'> -->
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-  
-    <meta charset='utf8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    
-    <title></title>
-    <h1>Welcome to petemccarthy.co.uk</h1>
+  <link rel='stylesheet' media='screen and (max-width: 400px)' href='css/min.css' />
+  <link rel='stylesheet' media='screen and (min-width: 401px) and (max-width: 500px)' href='css/500.css' />
+  <link rel='stylesheet' media='screen and (min-width: 501px) and (max-width: 600px)' href='css/600.css' />
+  <link rel='stylesheet' media='screen and (min-width: 601px) and (max-width: 700px)' href='css/700.css' />
+  <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/900.css' />
+  <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/max.css' />
+</head>
 
-  </head>
+<body>
 
-  <script src="https://api/js"></script>
-  <script src=".js"></script>
+  <section class='header-container'>
+    <section class='background-image'>
+    </section>
 
-  <body>
+    <section class='welcome'>
+      <h3 class='welcome-text'>Welcome to petemccarthy.co.uk</h3>
 
-  <p>After graduating in Economics I spent 10 years in Banking before joining [Makers Academy], a highly selective, 12 week Software and Web development course.</p>
+      <h3 class='welcome-prompt-text'>Please see my software and web development portfolio below.</h3>
+      <a href='#work' class='scroll-arrow-link'>
+        <img id='scroll-arrow' src="images/scroll_arrow.png">
+      </a>
+    </section>
+  </section>
 
-  <p>I made this decision as Software and Web development combines areas I'm passionate about – technology, solving problems and being creative.</p>
+  <menu class='main-menu'>
+    <section class='menuitem-container'>
+      <!-- <menuitem id='menuitem-skills'>Skills</menuitem> -->
 
-  <p>As well as Object Oriented Programming, Software design and Full- stack Web development, the course focussed on developing best practices such as Behaviour/Test Driven Development, Pair Programming and Agile methodologies.</p>
+      <a href='#work' id='menuitem-portfolio'>About</a>
+      <a href='#contact' id='menuitem-contact'>Contact</a>
+    </section>
+  </menu>
 
-  <p>I also learnt how Software and Web applications should be designed in collaboration with your client and from the end users perspective, with easily maintainable code.</p>
+  <div id='work'></div>
 
-  <p>My other interests include cycling, technology, climbing, skiing, outdoor pursuits and travel.</p>
+<section class='work-container'>
 
-  <section id=""></section>
+  <div class='work-header-container'>
+    <!-- <p class='work-header'>Work</p> -->
 
-    <form id=''>
-      <input id='' placeholder=''>
-      <button type='submit'></button>
-    </form>
+    <p>After graduating in Economics I spent 10 years in Banking before joining Makers Academy, a highly selective, 12 week Software and Web development course.</p>
 
-    <p>Check out more of my code in my <a href='https://github.com/petermccarthy49?tab=repositories'>Github Repositories</a></p>
+     <p>I made this decision as Software and Web development combines areas I'm passionate about – technology, solving problems and being creative.</p>
 
+     <p>As well as Object Oriented Programming, Software design and Full- stack Web development, the course focussed on developing best practices such as Behaviour/Test Driven Development, Pair Programming and Agile methodologies.</p>
 
+     <p>I also learnt how Software and Web applications should be designed in collaboration with your client and from the end users perspective, with easily maintainable code.</p>
 
+     <p>My other interests include cycling, technology, climbing, skiing, outdoor pursuits and travel.</p>    
 
-    <section class='contact-container'>
+  </div>
+
+  <section id='responsive_work'>
+
+    <!-- Kickstagram -->
+    <!-- <div class="col span_1_of_3">
+      <a href='https://github.com/jamieallen59/Kickstagram' class='work-piece'>
+        <img id='thumbnail-image' src="images/kickstagram2.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>Kickstagram</h4>
+          <article id='thumbnail-text'>An instagrame clone for trainers. Built using Ruby on Rails, gmaps API and Stripe.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Challenge Me -->
+    <!-- <div class="col span_1_of_3">
+      <a href='http://challenge--me.herokuapp.com/' class='work-piece'>
+        <img id='thumbnail-image' src="images/challenge-me2.png">
+        <section id='work-text'>
+          <h4 id='thumbnail-header'>Challenge Me</h4>
+          <article id='thumbnail-text'>A web application built to make fundraising fun. MVP built in 10 days using Ruby on Rails. Test driven with Rspec.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Jquery selector engine -->
+    <!-- <div class="col span_1_of_3">
+      <a href='https://github.com/jamieallen59/JQuery_selector_engine' class='work-piece'>
+        <img id='thumbnail-image' src="images/jquery-code.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>JQuery Selector</h4>
+          <article id='thumbnail-text'>A program that takes CSS selectors and returns DOM elements. Tested and built using pure JavaScript.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Boris Bikes -->
+    <!-- <div class="col span_1_of_3">
+      <a href='https://github.com/jamieallen59/boris_bikes' class='work-piece'>
+        <img id='thumbnail-image' src="images/boris_bikes.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>Boris Bikes</h4>
+          <article id='thumbnail-text'>A program for a bike system with an emphasis on code readability and OO design. Built using Ruby, tested with Rspec.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Thermostat -->
+    <!-- <div class="col span_1_of_3">
+      <a href='http://js-wall-thermostat.herokuapp.com/' class='work-piece'>
+        <img id='thumbnail-image' src="images/thermostat2.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>JS Thermostat</h4>
+          <article id='thumbnail-text'>An interactive thermostat. Play around with it. Built using Javascript and Jquery, tested with Jasmine.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Angular To Do -->
+    <!-- <div class="col span_1_of_3">
+      <a href='http://angular-to-do-list.herokuapp.com/' class='work-piece'>
+        <img id='thumbnail-image' src="images/to-do.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>To-Do List</h4>
+          <article id='thumbnail-text'>A dynamically updating, simple to do list. Built using AngularJS.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Twitter front-end -->
+    <!-- <div class="col span_1_of_3">
+      <a href='http://twitter-front-end-clone.herokuapp.com/' class='work-piece'>
+        <img id='thumbnail-image' src="images/twitter2.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>Twitter Clone</h4>
+          <article id='thumbnail-text'>A recreation of Twitter's front-end. Built using HTML, CSS and JavaScript.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+    <!-- Ruby test -->
+    <!-- <div class="col span_1_of_3">
+      <a href='https://github.com/jamieallen59/Ruby-test' class='work-piece'>
+        <img id='thumbnail-image' src="images/ruby-test.png">
+        <section id='work-text'> 
+          <h4 id='thumbnail-header'>Ruby Test</h4>
+          <article id='thumbnail-text'>A set of programming challenges in the the Ruby language. Click here to take the test yourself.
+          </article>
+        </section>
+      </a>
+    </div> -->
+
+  </section>
+</section>
+
+    <div class='page-divider'></div>
+  </section>
+
+  <section class='contact-container'>
     <div id='contact'></div>
 
     <div class='contact-header-container'>
@@ -51,141 +177,62 @@
 
     <section class='details-container'>
       <section class='image-container'>
-        <img id='profile-picture' src="images/profile_img.jpg">
+        <img id='profile-picture' src="images/profile.jpg">
       </section>
       <section class='name-and-email'>
-        <p id='name'>Pete McCarthy</p>
-        <p id='email'>petermccarthy49@yahoo.co.uk</p>
+        <!-- <p id='name'>Pete McCarthy</p> -->
+        <!-- <p id='email'>petermccarthy49@yahoo.co.uk</p> -->
       </section>
     </section>
 
     <ul>
       <section class='icon-container'>
-        <li class='link-icon'><a href="mailto:petermccarthy49@yahoo.co.uk" id="gmail-small">email</a></li>
+        <li class='link-icon'><a href="mailto:petermccarthy49@yahoo.co.uk" id="gmail-small">Email</a></li>
 
         <li class='link-icon'><a href="http://uk.linkedin.com/pub/peter-mccarthy/93/b30/527/" id="linkedin-small">LinkedIn</a></li>
 
         <li class='link-icon'><a href="https://github.com/petermccarthy49" id="github-small">Github</a></li>
 
         <li class='link-icon'><a href="https://twitter.com/1978pmm/with_replies" id="twitter-small">Twitter</a></li>
-
       </section>
     </ul>
 
   </section>
 
-
-<aside>
-      <section class="profile">
-        <section class="profile top"></section>
-        <section class="profile picture"></section>
-        <h3 class="profile name">Peter McCarthy</h3>
-        <p class="profile handle">@1978pmm</p>
-        <!-- <ul class="profile stats">
-          <li>
-            <section class="profile stats title">TWEETS</section>
-            <section class="profile stats value">58</section>
-          </li>
-          <li id="second">
-            <section class="profile stats title">FOLLOWING</section>
-            <section class="profile stats value">38</section>
-          </li>
-          <li>
-            <section class="profile stats title">FOLLOWERS</section>
-            <section class="profile stats value">21</section>
-          </li>
-        </ul>
-        <section class="profile tweet">
-          <input type="text" placeholder="Compose new Tweet...">
-        </section> -->
-      </section>
-
-      <article>
-
-      <header>
-        <h3>Skills</h3>
-        <small>Coding</small>
-      </header>
-
-      <section>
-        <ul>
-          <li>Ruby</li>
-          <li>Rails</li>
-          <li>Jacascript</li>
-          <li>jQuery & AJAX</li>
-          <li>JSON & jBuilder</li>
-          <li>Basic Java</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Markdown (GitHub flavour)</li>
-        </ul>
-      </section>
-
-      <section>
-        <ul>
-          <li>Agile values, principles and practices</li>
-          <li>Object oriented principles and design</li>
-          <li>Pair programming</li>
-          <li>Mobile-first responsive design</li>
-          <li>Agile methodologies, TDD, BDD</li>
-          <li>Pair programming and group work</li>
-          <li>Object-oriented programming</li>
-          <li>MVP Design</li>
-        </ul>
-      </section>
-
-      <section>
-        <ul>
-          <li>Test Driven Development (TDD)</li>
-          <li>Unit testing with RSpec and Jasmine</li>
-          <li>Integration testing with Capybara and Poltergeist</li>
-          <li>Behaviour Driven Development (BDD) with Cucumber</li>
-          <li>Validating tests using Code-climate</li>
-        </ul>
-      </section>
-
-      <section>
-        <ul>
-          <li>Ruby Gems (inc. Devise, bcrypt, FactoryGirl, Paperclip, </li>
-          <li>Poltergeist, Database Cleaner)</li>
-          <li>APIs (inc. FourSquare, Twilio, Mailgun, Google Maps, gmaps.js)</li>
-          <li>FactoryGirl fixtures and Shoulda matchers</li>
-          <li>WebSockets</li>
-          <li>User authentication and authorisation with bcrypt and Devise</li>
-          <li>Integration of APIs including Pusher, Twilio, Stripe, GMaps, Mailgun and Paperclip</li>
-        </ul>
-      </section>
-
-      <section>
-        <ul>
-          <li>Version control and collaboration using Git and GitHub</li>
-          <li>Rapid deployment to Heroku and Amazon AWS</li>
-          <li>Web development frameworks – Ruby on Rails, Sinatra</li>
-          <li>Database management using PostgresQL, ActiveRecord,and DataMapper</li>
-        </ul>
-      </section>  
-
-    </article>
-    </aside>
-
-
-    <section class='footer'>
+  <section class='footer'>
     <article class='footer-content-container'>
-      <p class='signature'>Copyright ©2015 Pete McCarthy</p>
-      <p class='footer-text'>Get in touch!</p>
+      <p class='signature'>©2014 Pete McCarthy</p>
+      <!-- <p class='footer-text'>See you again soon!</p> -->
     </article>
   </section>
 
-[Github Repositories]:https://github.com/petermccarthy49?tab=repositories
-[Makers Academy]:http://www.makersacademy.com
-[petermccarthy49@yahoo.co.uk]:mailto:petermccarthy49@yahoo.co.uk
-[Personal Website]:http://www.petemccarthy.co.uk
-[LinkedIn]:http://uk.linkedin.com/pub/peter-mccarthy/93/b30/527/
-[Twitter]:https://twitter.com/1978pmm
-[Bunch]:https://github.com/petermccarthy49/bunch
-[Sudoku solver]:https://github.com/petermccarthy49/sudoku
-[Thermostat]:https://github.com/petermccarthy49/thermostat
+</body>
 
-  
-    
+  <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script>
+    $(document).ready(function() { 
+
+      
+    //  $('#menuitem-portfolio').click(function(){
+    //     $("html, body").animate({ scrollTop: $(window).height(200)}, 600) ;
+    //     return false;
+    // });
+
+    $('a[href^="#"]').on('click',function(e) {
+          e.preventDefault();
+
+          var target = this.hash,
+          $target = $(target);
+
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top
+          }, 700, 'swing', function () {
+              window.location.hash = target;
+          });
+      });
+    });
+     
+
+    </script>
+
 </html>

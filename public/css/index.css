@@ -58,6 +58,15 @@ body {
       background: #343434;
       color: #FFF;
     }
+
+      .menuitem-welcome {
+        font-size: 40px;
+        font-weight: 200;
+        vertical-align: middle;
+        line-height: 5px;
+        height: 38px;
+        letter-spacing: 0.7px;
+      }
       .menuitem-container {
         float: right;
         font-size: 20px;
@@ -90,7 +99,7 @@ body {
           bottom: 1px;
           opacity: 1;
         }
-        #menuitem-portfolio {
+        #menuitem-profile {
           margin-right: 35px;
           cursor: pointer;
           opacity: 0.6;
@@ -98,7 +107,7 @@ body {
           color: #FFF;
           transition: 0.5s ease;
         }
-        #menuitem-portfolio:hover {
+        #menuitem-profile:hover {
           /*border-bottom: 3px solid #4dd2ff;*/
           transition: 0.3s ease-in-out;
           /*color: #4dd2ff;*/

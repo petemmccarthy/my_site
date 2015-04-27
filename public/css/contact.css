@@ -52,16 +52,19 @@
 		margin-left: auto;
 		width: 300px;
 		color: blue;
-		font-size: 1em;
-		padding-top: 8%;
+		font-size: 1.5em;
+		padding-top: 4%;
+		padding-bottom: 4%;
 		font-weight: 200;
 		-webkit-font-smoothing:antialiased;
 	}
 		#name {
-			margin-top: 16%;
+			margin-top: 15%;
+			margin-bottom: 15%;
 		}
 		#title {
-			margin-top: 16%;
+			margin-top: 15%;
+			font-size: 1em;
 		}
 
 /*--- Social media icons container ---*/

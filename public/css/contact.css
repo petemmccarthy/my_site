@@ -2,7 +2,7 @@
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 200;
-	height: 650px;
+	height: 500px;
 	padding-top: 10%;
 	background: #C0DEED;
 }
@@ -17,7 +17,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom: 8%;
-		border-bottom: 1px solid #fff;
+		/*border-bottom: 1px solid #fff;*/
 	}
 		.contact-header {
 			font-family: "Arapey", sans-serif;
@@ -47,7 +47,7 @@
 			height: 150px;
 			margin-top: 26%;
 		}
-	.name-and-email {
+	.name-and-title {
 		margin-right: auto;
 		margin-left: auto;
 		width: 300px;
@@ -60,7 +60,7 @@
 		#name {
 			margin-top: 16%;
 		}
-		#email {
+		#title {
 			margin-top: 16%;
 		}
 

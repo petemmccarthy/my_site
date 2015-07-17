@@ -8,4 +8,8 @@ var Router = Ember.Router.extend({
 Router.map(function() {
 });
 
-export default Router;
+export default Router.map(function() {
+    this.resource('my-site', { path: '/' });
+});
+
+// export default Router;

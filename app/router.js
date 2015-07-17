@@ -11,5 +11,3 @@ Router.map(function() {
 export default Router.map(function() {
     this.resource('my-site', { path: '/' });
 });
-
-// export default Router;

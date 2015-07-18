@@ -11,12 +11,6 @@
     "ember-resolver": "~0.1.15",
     "jquery": "^1.11.1",
     "loader.js": "ember-cli/loader.js#3.2.0",
-    "qunit": "~1.17.1",
-    "bootstrap": "~3.3.5",
-    "font-awesome": "~4.3.0",
-    "ember-addons.bs_for_ember": "~0.7.0"
-  },
-  "resolutions": {
-    "bootstrap": "~3.3.5"
+    "qunit": "~1.17.1"
   }
 }

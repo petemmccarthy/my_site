@@ -1,0 +1,133 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background: #C0DEED;
+}
+
+  /*.header-container {
+    background-color: #5C97CA;
+    width:100%;
+    height:610px;
+  }*/
+    /*.background-image {
+      background: url(../images/boat.jpg);
+      background-size: 850px;
+      background-repeat: no-repeat; 
+      width:900px;
+      height:580px;
+      margin-left: auto;
+      margin-right: auto;
+    }*/
+
+  /*  .welcome {
+      text-align: center;
+      margin-top: -120px;
+      font-size: 30px;
+      font-weight: 200;
+      color: #FFF;
+      -webkit-font-smoothing:antialiased;
+    }*/
+      /*.welcome-text {
+        width: 550px;
+        font-size: 20px;
+        font-family: "Helvetica Neue", Helvetica;
+        font-weight: 200;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+      }
+      .welcome-prompt-text {
+        width: 700px;
+        font-size: 20px;
+        font-family: "Helvetica Neue", Helvetica;
+        font-weight: 200;
+        margin-left: auto;
+        margin-right: auto;
+      }*/
+      .scroll-arrow-link {
+        margin-left: auto;
+        margin-right: auto;
+      }
+        #scroll-arrow {
+          background: url(../images/scroll_arrow.png);
+          margin-top: 25px;
+          -webkit-font-smoothing: antialiased;
+        }
+
+    .main-menu {
+      height: 70px;
+      background: #343434;
+      color: #FFF;
+    }
+
+      .menuitem-welcome {
+        font-size: 40px;
+        font-weight: 200;
+        vertical-align: middle;
+        line-height: 5px;
+        height: 38px;
+        letter-spacing: 0.7px;
+      }
+      .menuitem-container {
+        float: right;
+        font-size: 20px;
+        font-weight: 200;
+        vertical-align: middle;
+        line-height: 70px;
+        height: 38px;
+        letter-spacing: 0.7px;
+        margin-right: 35px;
+
+        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: -webkit-flex;     /* NEW - Chrome */
+        display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      }
+        #menuitem-skills {
+          margin-right: 25px;
+          cursor: pointer;
+          transition: 0.2s ease-in-out;
+          opacity: 0.6;
+          text-decoration: none;
+          color: #FFF;
+        }
+        #menuitem-skills:hover {
+          /*border-bottom: 3px solid #4dd2ff;*/
+          transition: 0.2s ease-in-out;
+          /*color: #4dd2ff;*/
+          position: relative;
+          bottom: 1px;
+          opacity: 1;
+        }
+        #menuitem-profile {
+          margin-right: 35px;
+          cursor: pointer;
+          opacity: 0.6;
+          text-decoration: none;
+          color: #FFF;
+          transition: 0.5s ease;
+        }
+        #menuitem-profile:hover {
+          /*border-bottom: 3px solid #4dd2ff;*/
+          transition: 0.3s ease-in-out;
+          /*color: #4dd2ff;*/
+          position: relative;
+          bottom: 1px;
+          opacity: 1;
+        }
+        #menuitem-contact {
+          cursor: pointer;
+          opacity: 0.6;
+          text-decoration: none;
+          color: #FFF;
+          padding-right: 25px;
+        }
+        #menuitem-contact:hover {
+          /*border-bottom: 3px solid #4dd2ff;*/
+          transition: 0.3s ease-in-out;
+          /*color: #4dd2ff;*/
+          position: relative;
+          bottom: 1px;
+          opacity: 1;
+        }
+

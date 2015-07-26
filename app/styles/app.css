@@ -1,3 +1,18 @@
 .navbar {
   color: red;
 }
+
+.name-and-title {
+
+  color: red;
+  font-size: 25px;
+}
+  #name {
+    margin-top: 15%;
+    font-size: 30px;
+    margin-bottom: 15%;
+  }
+  #title {
+    margin-top: 15%;
+    font-size: 1em;
+  }

@@ -8,8 +8,8 @@
 }
 
 /*#44BF87*/
-	
-	div#contact {
+
+	#contact {
 		height: 4%;
 	}
 	.contact-header-container {
@@ -34,7 +34,7 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+
 	padding-left: 17.937219731%;
 	padding-right: 17.937219731%;
 }
@@ -102,21 +102,21 @@ a {
     border-radius: 6px;
    	width: 60px;
 	text-align: center;
-	
+
 	-webkit-transform: translate(0, 0);
 	-moz-transform: translate(0, 0);
 	transform: translate(0, 0);
- 
+
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
 	-ms-transition: all .2s ease;
 	-o-transition: all .2s ease;
 	transition: all .2s ease;
- 
+
 height:54px;
 cursor:pointer;
 overflow:hidden;
- 
+
     color: transparent;
 }
 
@@ -129,8 +129,8 @@ overflow:hidden;
 	background:#DC4A38 url("../images/gmail.png") no-repeat center center;
 	background-size: 44px;
 }
- 
-#gmail-small:active { 
+
+#gmail-small:active {
  -webkit-box-shadow: 0px 2px 0px #B43828;
     -moz-box-shadow: 0px 2px 0px #B43828;
     box-shadow: 0px 2px 0px #B43828;
@@ -169,7 +169,7 @@ overflow:hidden;
 	background-size: 40px;
 	-webkit-font-smoothing: antialiased;
 }
- 
+
 #github-small:active{ -webkit-box-shadow: 0px 2px 0px #000000;
     -moz-box-shadow: 0px 2px 0px #000000;
     box-shadow: 0px 2px 0px #000000;
@@ -178,7 +178,7 @@ overflow:hidden;
 	background-color: #4E4E4E;
 	transition: all .1s ease;
 }
- 
+
 		#twitter-small{
 		 -webkit-box-shadow: 0px 6px 0px #2695BC;
 		    -moz-box-shadow: 0px 6px 0px #2695BC;
@@ -189,7 +189,7 @@ overflow:hidden;
 			background-size: 40px;
 			-webkit-font-smoothing: antialiased;
 		}
-		 
+
 		#twitter-small:active{ -webkit-box-shadow: 0px 2px 0px #2695BC;
 		    -moz-box-shadow: 0px 2px 0px #2695BC;
 		    box-shadow: 0px 2px 0px #2695BC;
@@ -214,7 +214,7 @@ a:active {
 	.footer-content-container {
 		width: 100%;
 		height: 70px;
-		
+
 		display: -webkit-box;
 	  display: -moz-box;
 	  display: -ms-flexbox;
@@ -270,4 +270,3 @@ a:active {
 		margin-left: 3%;
 	}
 }
-

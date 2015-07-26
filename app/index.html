@@ -22,76 +22,29 @@
     <meta charset='utf8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel='stylesheet' media='screen and (max-width: 400px)' href='css/min.css' />
-    <link rel='stylesheet' media='screen and (min-width: 401px) and (max-width: 500px)' href='css/500.css' />
-    <link rel='stylesheet' media='screen and (min-width: 501px) and (max-width: 600px)' href='css/600.css' />
-    <link rel='stylesheet' media='screen and (min-width: 601px) and (max-width: 700px)' href='css/700.css' />
-    <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/900.css' />
-    <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/max.css' />
-
   </head>
   <body>
     {{content-for 'body'}}
 
+    <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
     <script src="assets/vendor.js"></script>
     <script src="assets/my-site.js"></script>
 
-    {{content-for 'body-footer'}}
-
-
     <section class='welcome'>
-
-
-      <!-- <h3 class='welcome-prompt-text'>Please see some of my work below.</h3> -->
       <a href='#work' class='scroll-arrow-link'>
         <img id='scroll-arrow' src="images/scroll_arrow.png">
       </a>
     </section>
-  </section>
-
-  <menu class='main-menu'>
-    <section class='menuitem-container'>
-      <!-- <menuitem id='menuitem-skills'>Skills</menuitem> -->
-      <h3 class='menuitem-welcome'>Welcome to petemmccarthy.com</h3>
-      <a href='#work' id='menuitem-profile'>Profile</a>
-      <a href='#contact' id='menuitem-contact'>Contact</a>
-    </section>
-  </menu>
 
     <div class='page-divider'></div>
-  </section>
 
-  <section class='footer'>
-    <article class='footer-content-container'>
-      <p class='signature'>©2015 Pete M McCarthy</p>
-      <!-- <p class='footer-text'>See you again soon!</p> -->
-    </article>
-  </section>
+    <section class='footer'>
+      <article class='footer-content-container'>
+        <p class='signature'>©2015 Pete M McCarthy</p>
+        <!-- <p class='footer-text'>See you again soon!</p> -->
+      </article>
+    </section>
 
-</body>
-
-  <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
-    <script>
-    $(document).ready(function() {
-
-
-    //  $('#menuitem-portfolio').click(function(){
-    //     $("html, body").animate({ scrollTop: $(window).height(200)}, 600) ;
-    //     return false;
-    // });
-
-    $('a[href^="#"]').on('click',function(e) {
-          e.preventDefault();
-
-          var target = this.hash,
-          $target = $(target);
-
-          $('html, body').stop().animate({
-              'scrollTop': $target.offset().top
-          }, 700, 'swing', function () {
-              window.location.hash = target;
-          });
-      });
-    });
-    </script>
+    {{content-for 'body-footer'}}
+  </body>
 </html>

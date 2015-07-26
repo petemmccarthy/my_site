@@ -1,28 +1,26 @@
-<div class='contact-container'>
-
-  <div class='contact-header-container'>
-    <!-- <p class='contact-header'>How to find me</p> -->
+<div class='container contact'>
+  <div class="row">
+    <div class='col-lg-2 col-md-2 col-sm-12 text-center contact-header-container'>
+      <!-- <p class='contact-header'>How to find me</p> -->
+      <section class='details-container'>
+        <section class='image-container'>
+          <img id='profile-picture' src="vendor/profile.png">
+        </section>
+        <section class='name-and-title'>
+          <p id='name'>Pete M McCarthy</p>
+          <p id='title'>Web Developer</p>
+        </section>
+      </section>
+    </div>
+    <ul>
+      <section class='icon-container'>
+        <li class='link-icon'><a href="mailto:pete.m.mccarthy@gmail.com" id="gmail-small">Email</a></li>
+        <li class='link-icon'><a href="http://uk.linkedin.com/pub/peter-m-mccarthy/93/b30/527/" id="linkedin-small">LinkedIn</a></li>
+        <li class='link-icon'><a href="https://github.com/petemmccarthy" id="github-small">Github</a></li>
+        <li class='link-icon'><a href="https://twitter.com/PeteMMcCarthy/with_replies" id="twitter-small">Twitter</a></li>
+      </section>
+    </ul>
   </div>
-
-  <section class='details-container'>
-    <section class='image-container'>
-      <img id='profile-picture' src="images/profile.png">
-    </section>
-    <section class='name-and-title'>
-      <p id='name'>Pete M McCarthy</p>
-      <p id='title'>Web Developer</p>
-    </section>
-  </section>
-
-  <ul>
-    <section class='icon-container'>
-      <li class='link-icon'><a href="mailto:pete.m.mccarthy@gmail.com" id="gmail-small">Email</a></li>
-      <li class='link-icon'><a href="http://uk.linkedin.com/pub/peter-m-mccarthy/93/b30/527/" id="linkedin-small">LinkedIn</a></li>
-      <li class='link-icon'><a href="https://github.com/petemmccarthy" id="github-small">Github</a></li>
-      <li class='link-icon'><a href="https://twitter.com/PeteMMcCarthy/with_replies" id="twitter-small">Twitter</a></li>
-    </section>
-  </ul>
-
 </div>
 
 {{yield}}

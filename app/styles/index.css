@@ -11,7 +11,7 @@ body {
     /*.background-image {
       background: url(../images/boat.jpg);
       background-size: 850px;
-      background-repeat: no-repeat; 
+      background-repeat: no-repeat;
       width:900px;
       height:580px;
       margin-left: auto;
@@ -130,4 +130,3 @@ body {
           bottom: 1px;
           opacity: 1;
         }
-

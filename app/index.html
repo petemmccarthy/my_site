@@ -11,32 +11,14 @@
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/my-site.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-    <link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="images/tab_logo.png"/>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/work.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-    <meta charset='utf8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    {{content-for 'head-footer'}}
   </head>
   <body>
     {{content-for 'body'}}
 
-    <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
     <script src="assets/vendor.js"></script>
     <script src="assets/my-site.js"></script>
-
-    <section class='welcome'>
-      <a href='#work' class='scroll-arrow-link'>
-        <img id='scroll-arrow' src="images/scroll_arrow.png">
-      </a>
-    </section>
-
-    <div class='page-divider'></div>
 
     {{content-for 'body-footer'}}
   </body>

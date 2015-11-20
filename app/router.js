@@ -15,13 +15,5 @@ export default Router.map(function () {
     });
   });
 });
-=======
-const Router = Ember.Router.extend({
-  location: config.locationType
-});
 
-Router.map(function() {
-});
-
-export default Router;
->>>>>>> e4f1d68af75e6cb2630385998b1e18712d8d8d43
+// export default Router;

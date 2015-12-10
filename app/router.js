@@ -8,7 +8,7 @@ var Router = Ember.Router.extend({
 export default Router.map(function () {
   this.resource('my-site', { path: '/' });
   this.route('my-menu', { path: '/my-menu'}, function () {
-    this.route('my-about', { path: '/my-menu'}, function () {
+    this.route('my-about', { path: '/my-about'}, function () {
     this.route('my-work');
     this.route('my-contact');
     });

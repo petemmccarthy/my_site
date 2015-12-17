@@ -1,7 +1,7 @@
 // /* global require, module */
-// var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 //
-// module.exports = function(defaults) {
+module.exports = function(defaults) {
 //   // Use `app.import` to add additional libraries to the generated
 //   // output files.
 //   //
@@ -18,13 +18,13 @@
 //   /* global require, module */
 //
 //
-//   var app = new EmberApp({
-//     storeConfigInMeta: false,
-//     hinting: true,
-//     fingerprint: {
-//         exclude: ['png', 'jpg', 'gif']
-//     }
-//   });
+  var app = new EmberApp({
+    storeConfigInMeta: false,
+    hinting: true,
+    fingerprint: {
+        exclude: ['png', 'jpg', 'gif']
+    }
+  });
 //
 //   // Use `app.import` to add additional libraries to the generated
 //   // output files.
@@ -48,8 +48,8 @@
   });
 //
 //
-//   return app.toTree();
-// };
+  return app.toTree();
+};
 
 /*jshint node:true*/
 /* global require, module */

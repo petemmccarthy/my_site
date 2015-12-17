@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import Application from '../../app';
-// <<<<<<< HEAD
+<<<<<<< HEAD
 import Router from '../../router';
 import config from '../../config/environment';
 //
@@ -11,7 +11,7 @@ export default function startApp(attrs) {
   attributes = Ember.merge(attributes, attrs); // use defaults, but you can override;
 
   Ember.run(function() {
-// =======
+=======
 // import config from '../../config/environment';
 
 // export default function startApp(attrs) {

@@ -41,9 +41,9 @@
 	margin-left: auto;
 }
 #profile-picture {
+	/*background:#DC4A38 url("../vendor/images/profile.png") no-repeat center center;*/
 	border-radius: 50%;
 	height: 150px;
-	margin-top: 26%;
 }
 .name-and-title {
 	margin-right: auto;

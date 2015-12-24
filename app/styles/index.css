@@ -13,7 +13,7 @@ body {
   }
 
 .main-menu {
-height: 70px;
+height: 270px;
 background: #343434;
 color: #FFF;
 }
@@ -25,22 +25,6 @@ color: #FFF;
   line-height: 5px;
   height: 38px;
   letter-spacing: 0.7px;
-}
-.menuitem-container {
-  float: right;
-  font-size: 20px;
-  font-weight: 200;
-  vertical-align: middle;
-  line-height: 70px;
-  height: 38px;
-  letter-spacing: 0.7px;
-  margin-right: 35px;
-
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
   #menuitem-skills {
     margin-right: 25px;

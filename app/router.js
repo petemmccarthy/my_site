@@ -11,6 +11,7 @@ export default Router.map(function () {
     this.route('my-about', function () {
     this.route('my-work');
     this.route('my-contact');
+    this.route('my-cv');
     });
   });
 });
